@@ -22,3 +22,9 @@ p
     font-family: Futura;
     border-color: white;
 }
+
+iframe
+{
+    border: 5px;
+    border-color: orange;
+}
