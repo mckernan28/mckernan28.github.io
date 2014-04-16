@@ -1,0 +1,22 @@
+#banana
+ {
+     border: black 2px solid;
+     color: #a5a300;
+     background-color: yellow;
+     text-align: center;
+     font-family: Futura;
+     font-size: 75px;
+ }
+
+body
+{
+    background-color: orange;
+}
+
+p
+{
+    color: white;
+    font-size: 30px;
+    font-family: Futura;
+    border-color: white;
+}
