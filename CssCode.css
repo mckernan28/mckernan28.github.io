@@ -10,7 +10,9 @@
 
 body
 {
-    background: url(BackgroundMckernan28.png)
+    background: url(BackgroundMckernan28.png);
+    background-position:top center;
+    background-attachment:fixed;
 }
 
 p
