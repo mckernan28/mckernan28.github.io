@@ -29,3 +29,26 @@ p
     border-color: orange;
 }
 
+/* Start */
+#menu li.menuitem
+{
+    width: 100px;
+    height: 30px;
+    float: left;
+    margin: 0 10px;
+}
+.submenu
+{
+    display: none;
+    border-bottom: 1px solid #a9a9a9;
+    border-left: 1px solid #a9a9a9;
+    border-right: 1px solid #a9a9a9;
+}
+.submenuactive
+{
+    display: block;
+    border-bottom: 1px solid #a9a9a9;
+    border-left: 1px solid #a9a9a9;
+    border-right: 1px solid #a9a9a9;
+}
+/* End */
