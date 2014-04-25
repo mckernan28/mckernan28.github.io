@@ -56,7 +56,5 @@
         }); // end each
 
     };
-    $('div').click(function() {
-       $(this).effect('explode');
-    });
+
 })(jQuery);
