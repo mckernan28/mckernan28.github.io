@@ -27,7 +27,7 @@
 
             blob = $('#blob', nav);
 
-            $('li:not(#blob)', nav).h.over(function() {
+            $('li:not(#blob)', nav).hover(function() {
                 // mouse over
                 clearTimeout(reset);
                 blob.animate(
