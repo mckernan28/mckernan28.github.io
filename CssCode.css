@@ -76,3 +76,7 @@ ul, li {
     background: -moz-linear-gradient(top, #9ea49b, #8b2f00);
     background: -webkit-gradient(linear, left top, left bottom, from(#ff631a), to(#8b2f00));
 }
+
+#bry {
+    font-size: 40px;
+}
