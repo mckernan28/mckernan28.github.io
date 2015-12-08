@@ -65,18 +65,3 @@ ul, li {
     text-decoration: none;
     padding: 20px 30px;
 }
-
-#homewelcome
-{
-    width: 775px;
-
-    border: 7px solid black;
-    font-family: Futura, helveltica, arial, sans-serif;
-    font-size: 25px;
-    background: -moz-linear-gradient(top, #9ea49b, #8b2f00);
-    background: -webkit-gradient(linear, left top, left bottom, from(#ff631a), to(#8b2f00));
-}
-
-#bry {
-    font-size: 40px;
-}
