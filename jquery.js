@@ -13,9 +13,11 @@ $(document).ready(function() {
         if($(window).scrollTop() > topOfOthDiv) {
             console.log('true');
             $('.menu-bar').addClass("menu-bar-active");
+            $('.dropdown-menu-container').addClass("dropdown-menu-container-activated");
         }else{
             console.log('false');
             $('.menu-bar').removeClass("menu-bar-active");
+            $('.dropdown-menu-container').removeClass("dropdown-menu-container-activated");
         }
     });
 });
