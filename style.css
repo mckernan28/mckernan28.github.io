@@ -1,24 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .banner-container {
     display: block;
-    height: 50px;
-    padding: 10px 10px 0 10px;
+    height: 72px;
 }
 
 .banner-container-left {
     display: inline-flex;
     float: left;
-    width: 50%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .banner-container-right {
-    width: 50%;
+    width: 100%;
     float: left;
-    text-align: right;
-}
-
-body {
+    text-align: center;
     margin: 0;
     padding: 0;
+}
+
+.logo-link {
+    margin: auto;
+    padding: 0;
+    display: inline-flex;
+}
+
+.banner-logo {
+    height: 50px;
+    padding: 0;
+}
+
+.banner-phrase {
+    padding: 0;
+    margin: 0 0 5px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+@media (min-width: 480px) {
+    .banner-container {
+        height: 50px;
+        padding: 10px 10px 0 10px;
+    }
+
+    .banner-container-left {
+        width: 50%;
+    }
+
+    .banner-container-right {
+        width: 50%;
+        text-align: right;
+    }
+
+    .logo-link {
+        margin: 0;
+    }
+
+    .banner-phrase {
+        margin: 0;
+        padding-top: 20px;
+        font-size: 20px;
+    }
 }
 
 .menu-bar {
@@ -32,65 +79,6 @@ body {
     top: 0;
     position: fixed;
 }
-
-.logo-link {
-    margin: 0;
-    padding: 0;
-    display: inline-flex;
-}
-
-.banner-logo {
-    height: 50px;
-}
-
-.banner-phrase {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    padding-top: 20px;
-}
-
-@media (max-width: 480px) {
-    .banner-container {
-        height: 72px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .banner-container-left {
-        width: 100%;
-        display: inline-flex;
-        margin: 0;
-        padding: 0;
-    }
-
-    .banner-container-right {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-    }
-
-    .logo-link {
-        margin: auto;
-    }
-
-    .banner-logo {
-        padding: 0;
-    }
-
-    .banner-phrase {
-        margin-bottom: 5px;
-        padding: 0;
-        font-size: 12px;
-    }
-}
-
-
-
-
-
-
 
 .avatar-container {
     list-style-type: none;
