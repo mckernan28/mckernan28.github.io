@@ -257,26 +257,15 @@ body {
 }
 
 .profile-picture-menu-settings {
-    width: 100%;
+    display: block;
+    width: 70px;
     border-radius: 5px;
+    margin: auto;
 }
 
 .img-container {
-    width: 70px;
-    height: 70px;
     display: block;
     margin: 0 auto 5px;
-}
-
-.overcast {
-    display: inline-block;
-    width: 70px;
-    height: 15px;
-    background-color: rgba(147, 171, 210, 0.7);
-    z-index: 1;
-    position: relative;
-    bottom: 22px;
-    border-radius: 0 0 5px 5px;
 }
 
 .overcast-text {
@@ -285,7 +274,7 @@ body {
     text-decoration: none;
     font-family: 'Helvetica';
     font-size: 11px;
-    margin-top: 1.4px;
+    margin: 3px auto;
 }
 
 .overcast-text:hover {
@@ -450,7 +439,7 @@ body {
 
     .dropdown-menu-settings {
         float: right;
-        margin: 27.25px 40px 27.25px 0;
+        margin: 36.25px 40px 36.25px 0;
     }
 
     .dropdown-menu-settings-link-container {
