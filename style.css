@@ -229,7 +229,7 @@ body {
 
 .profile-overview-menu-settings-container {
     width: 50%;
-    display: inline-flex;
+    display: block;
 }
 
 .settings-menu-settings-container {
