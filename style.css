@@ -252,7 +252,7 @@ body {
 
 .dropdown-menu-settings-link-container {
     list-style: none;
-    margin: 0 0 0 30px;
+    margin: 43.5px 0 43.5px 30px;
     padding: 0;
 }
 
@@ -270,15 +270,16 @@ body {
 
 .overcast-text {
     display: block;
-    color: #FFFFFF;
+    color: #647784;
     text-decoration: none;
     font-family: 'Helvetica';
     font-size: 11px;
-    margin: 3px auto;
+    margin: 3px auto 6px;
 }
 
 .overcast-text:hover {
     text-decoration: underline;
+    color: white;
 }
 
 
@@ -439,7 +440,7 @@ body {
 
     .dropdown-menu-settings {
         float: right;
-        margin: 36.25px 40px 36.25px 0;
+        margin: 38.5px 60px 38.5px 0;
     }
 
     .dropdown-menu-settings-link-container {
