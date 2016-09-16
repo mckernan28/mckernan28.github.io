@@ -12,9 +12,11 @@ $(document).ready(function() {
         if($(window).scrollTop() > topOfOthDiv) {
             $('.menu-bar').addClass("menu-bar-active");
             $('.dropdown-menu-container').addClass("dropdown-menu-container-activated");
+            $('.banner-container-compensator').addClass('banner-container-compensator-active');
         }else{
             $('.menu-bar').removeClass("menu-bar-active");
             $('.dropdown-menu-container').removeClass("dropdown-menu-container-activated");
+            $('.banner-container-compensator').removeClass('banner-container-compensator-active');
         }
     });
 });
