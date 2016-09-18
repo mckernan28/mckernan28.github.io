@@ -83,7 +83,7 @@ body {
     border-radius: 100%;
 }
 
-.square:hover {
+.square-active {
     border-radius: 10%;
     transform: scale(1.2, 1.2);
 }
@@ -259,6 +259,7 @@ body {
 .profile-picture-menu-settings {
     display: block;
     width: 70px;
+    height: 70px;
     border-radius: 5px;
     margin: auto;
 }
@@ -282,14 +283,6 @@ body {
     color: white;
 }
 
-
-
-
-
-
-
-
-
 .banner-container-compensator {
     display: block;
     margin: auto;
@@ -298,134 +291,6 @@ body {
 .banner-container-compensator-active {
     margin-top: 59px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    padding: 5px;
-    width: 100%;
-    background: #FFFFFF;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-
-    /* Position the tooltip */
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -50%;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
-
-.bubble
-{
-
-}
-
-.bubble:after
-{
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 0 15px 15px;
-    border-color: #FFFFFF transparent;
-    display: block;
-    width: 0;
-    z-index: 1;
-    top: -15px;
-    left: 165px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#intro-container {
-    top: calc(50% - 25%);
-    left: calc(50% - 15%);
-    width: 30%;
-    height: 50%;
-    margin: 200px auto;
-}
-
-#description {
-    text-align: center;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
-    font-family: "Helvetica";
-    font-weight: bold;
-}
-
-#description span{
-    background-color: yellow;
-}
-
-#apple {
-    padding-top: 1em;
-    height: 7em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
 
 
 

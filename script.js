@@ -8,6 +8,11 @@ $(document).ready(function() {
         $('.dropdown-menu-container').toggleClass('dropdown-menu-container-active');
     });
 
+    $(".square").click(function(e){
+        e.preventDefault();
+        $(this).toggleClass('square-active');
+    });
+
     $(window).scroll(function() {
         if($(window).scrollTop() > topOfOthDiv) {
             $('.menu-bar').addClass("menu-bar-active");
