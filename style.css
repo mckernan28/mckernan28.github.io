@@ -1,11 +1,13 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #dcdcdc;
 }
 
 .banner-container {
     display: block;
     height: 72px;
+    background-color: white;
 }
 
 .banner-container-left {
@@ -292,10 +294,47 @@ body {
     margin-top: 59px;
 }
 
-#main-page-content {
-
+#main-page-image-container {
+    width: 100%;
+    display: block;
 }
 
+#main-page-image {
+    width: 100%;
+}
+
+#main-page-content-container {
+    display: inline-flex;
+    width: 100%;
+}
+
+.content-container {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #ffffff;
+}
+
+.content-title-container {
+    width: 100%;
+}
+
+.content-title {
+    font-family: 'Helvetica';
+    margin: 2px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.content-image-container {
+ width: 100%;
+}
+
+.content-image {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
 
 
 
