@@ -1,14 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: white;
-
+    background-color: #ffffff;
 }
 
 .page-container {
     background-color: #e8e8e8;
-    background-color: #dcdcdc;
 }
+
+
 
 .banner-container {
     display: block;
@@ -356,7 +356,6 @@ body {
 
 .footer-container {
     bottom: 0;
-    display: block;
 }
 
 .footer {
@@ -368,9 +367,12 @@ body {
     font-size: 12px;
     text-align: center;
     margin: 0;
-    color: #b4b4b4;
     padding: 20px 0;
+    color: #b4b4b4;
 }
+
+
+
 
 
 
