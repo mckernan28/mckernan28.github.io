@@ -1,6 +1,12 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: white;
+
+}
+
+.page-container {
+    background-color: #e8e8e8;
     background-color: #dcdcdc;
 }
 
@@ -348,10 +354,23 @@ body {
     margin: 0 10px;
 }
 
+.footer-container {
+    bottom: 0;
+    display: block;
+}
 
+.footer {
+    background-color: white;
+}
 
-
-
+.footer-text {
+    font-family: 'Helvetica';
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    color: #b4b4b4;
+    padding: 20px 0;
+}
 
 
 
