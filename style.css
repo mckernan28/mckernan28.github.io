@@ -266,29 +266,15 @@ body {
 
 .profile-picture-menu-settings {
     display: block;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 5px;
-    margin: auto;
+    margin: 0 auto 15px;
 }
 
 .img-container {
     display: block;
     margin: 0 auto 5px;
-}
-
-.overcast-text {
-    display: block;
-    color: #647784;
-    text-decoration: none;
-    font-family: 'Helvetica';
-    font-size: 11px;
-    margin: 3px auto 6px;
-}
-
-.overcast-text:hover {
-    text-decoration: underline;
-    color: white;
 }
 
 .banner-container-compensator {
@@ -356,6 +342,7 @@ body {
 
 .footer-container {
     bottom: 0;
+    box-shadow: 0 -2px 4px 0 rgba(0,0,0,0.16),0 -2px 10px 0 rgba(0,0,0,0.12)!important;
 }
 
 .footer {
@@ -405,7 +392,7 @@ body {
 
     .dropdown-menu-settings {
         float: right;
-        margin: 38.5px 60px 38.5px 0;
+        margin: 25.4px 60px 25.4px 0;
     }
 
     .dropdown-menu-settings-link-container {
