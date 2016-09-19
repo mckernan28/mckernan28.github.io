@@ -10,7 +10,13 @@ $(document).ready(function() {
 
     $(".square").click(function(e){
         e.preventDefault();
-        $(this).toggleClass('square-active');
+        if ($(this).hasClass('square-active')) {
+            $(this).toggleClass('square-active');
+        }
+        else {
+            $(".square").removeClass('square-active');
+            $(this).addClass('square-active');
+        }
     });
 
     $(window).scroll(function() {
