@@ -96,21 +96,9 @@ body {
     transform: scale(1.2, 1.2);
 }
 
-.test {
+.square-container {
     display: inline-flex;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .menu {
     display: block;
@@ -279,7 +267,7 @@ body {
 }
 
 .banner-container-compensator {
-    display: block;
+    display: inline-flex;
     margin: auto;
 }
 
@@ -362,9 +350,64 @@ body {
 
 
 
+/* Settings.html Page */
+
+.profile-overview-settings-container {
+    width: 60%;
+    font-family: 'Helvetica';
+    background-color: white;
+    margin: 30px auto 0;
+    display: block;
+}
+
+.profile-overview-settings {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    background-color: #ffffff;
+    font-family: 'Helvetica';
+    padding: 35px;
+}
+
+.profile-overview-settings-picture {
+    margin: 15px auto;
+    width: 100px;
+    display: block;
+    border-radius: 10px;
+}
+
+.profile-overview-name {
+    text-align: center;
+    padding: 0;
+    margin: 20px 0 0;
+    font-size: 16px;
+    color: #6f6f6f;
+    text-decoration: none;
+    display: block;
+    transition: 0.1s ease-in;
+}
+
+.profile-overview-username {
+    text-align: center;
+    padding: 0 0 20px 0;
+    margin: 4px 0 0;
+    font-size: 12px;
+    color: #b2b2b2;
+    text-decoration: none;
+    display: block;
+    transition: 0.1s ease-in;
+}
+
+.profile-overview-name:hover {
+    color: #30353a;
+}
+
+.profile-overview-username:hover {
+    color: #4c6370;
+}
 
 
-
+/* Media Queries */
 
 @media (min-width: 480px) {
     .banner-container {
@@ -397,4 +440,12 @@ body {
         width: 470px;
     }
 
+    .profile-overview-settings-picture {
+        margin: 25px auto;
+        width: 150px;
+    }
+
+    .profile-overview-settings-container {
+        width: 500px;
+    }
 }
