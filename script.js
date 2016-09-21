@@ -13,11 +13,18 @@ $(document).ready(function() {
 
     $(".edit").click(function(e){
         e.preventDefault();
-        $(this).toggleClass('edit-cancel fa-pencil fa-times');
-        $('.save-button').toggle();
-        $('.cancel-button').toggle();
-        $('#input-username').toggle();
-        $('#current-username').toggle()
+        $(this).fadeToggle(100);
+        $('.save-button').fadeToggle(200);
+        $('.cancel-button').fadeToggle(200);
+        $('#input-username').fadeToggle(200);
+    });
+
+    $("#cancel-edit").click(function(e){
+        e.preventDefault();
+        $(".edit").toggle();
+        $('#input-username').fadeToggle(200);
+        $('.save-button').fadeToggle(200);
+        $('.cancel-button').fadeToggle(200);
     });
 
     $(".square").click(function(e){
