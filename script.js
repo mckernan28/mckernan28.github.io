@@ -14,18 +14,18 @@ $(document).ready(function() {
     $(".edit").click(function(e){
         e.preventDefault();
         $(this).fadeToggle(100);
-        $('.save-button').fadeToggle(200);
-        $('.cancel-button').fadeToggle(200);
-        $('#input-username').fadeToggle(200);
+        $('#username-edit-input').children().fadeToggle(200);
     });
 
-    $("#cancel-edit").click(function(e){
+    $("#cancel-username-edit").click(function(e){
         e.preventDefault();
         $(".edit").toggle();
-        $('#input-username').fadeToggle(200);
-        $('.save-button').fadeToggle(200);
-        $('.cancel-button').fadeToggle(200);
+        $('#username-edit-input').children().fadeToggle(200);
     });
+
+
+
+
 
     $(".square").click(function(e){
         e.preventDefault();
