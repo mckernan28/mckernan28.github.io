@@ -1,5 +1,8 @@
 $(document).ready(function() {
     var topOfOthDiv = $(".banner-container").outerHeight();
+    $('.save-button').hide();
+    $('.cancel-button').hide();
+    $('#input-username').hide();
 
     $(".hamburger").click(function(e){
         e.preventDefault();
@@ -11,6 +14,10 @@ $(document).ready(function() {
     $(".edit").click(function(e){
         e.preventDefault();
         $(this).toggleClass('edit-cancel fa-pencil fa-times');
+        $('.save-button').toggle();
+        $('.cancel-button').toggle();
+        $('#input-username').toggle();
+        $('#current-username').toggle()
     });
 
     $(".square").click(function(e){

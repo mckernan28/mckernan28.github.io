@@ -414,7 +414,6 @@ i {
 }
 
 #settings-form {
-    text-align: center;
     padding: 30px 0;
 }
 
@@ -424,7 +423,13 @@ i {
 
 .edit {
     color: #3e60ce;
-    margin-left: 10px;
+    margin-left: 5px;
+}
+
+.edit-cancel {
+    color: #d63034;
+    transform: rotate(360deg);
+    display: none;
 }
 
 
@@ -494,8 +499,58 @@ i {
     }
 }
 
+.save-button {
+    color: #fff;
+    background-color: #5ab74e;
+    display: inline-block;
+    padding: 3px 6px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #5ab74e;
+    border-radius: 4px;
+}
 
-.edit-cancel {
-    color: #d63034;
-    transform: rotate(360deg);
+.cancel-button {
+    color: #fff;
+    background-color: #d9534f;
+    display: inline-block;
+    padding: 3px 6px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #d43f3a;;
+    border-radius: 4px;
+}
+
+#name-change {
+    margin: 1px auto;
+    display: inline;
+    font-size: 18px;
+}
+
+#input-username {
+
+}
+
+#current-username {
+    display: inline;
+    margin: 0 0 0 10px;
+    color: #808080;
 }
