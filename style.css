@@ -420,12 +420,6 @@ i {
 
 .edit-container {
     font-size: 22px;
-    position: absolute;
-}
-
-.delete-container {
-    font-size: 22px;
-    position: absolute;
 }
 
 .edit {
