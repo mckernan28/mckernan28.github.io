@@ -1,11 +1,20 @@
 $(document).ready(function() {
     var topOfOthDiv = $(".banner-container").outerHeight();
+    $('.delete').hide();
 
     $(".hamburger").click(function(e){
         e.preventDefault();
         $(this).toggleClass('hamburger-active');
         $('.hamburger-container').toggleClass('margin-adjust-menu');
         $('.dropdown-menu-container').toggleClass('dropdown-menu-container-active');
+    });
+
+    $(".edit").click(function(e){
+        e.preventDefault();
+        $(this).toggleClass('spin');
+        $(this).toggleClass('fa-pencil');
+        $(this).toggleClass('fa-check')
+        $('.delete').toggle();
     });
 
     $(".square").click(function(e){

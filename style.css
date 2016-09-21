@@ -267,7 +267,7 @@ body {
 }
 
 .banner-container-compensator {
-    display: inline-flex;
+    display: block;
     margin: auto;
 }
 
@@ -352,59 +352,103 @@ body {
 
 /* Settings.html Page */
 
-.profile-overview-settings-container {
-    width: 60%;
+.settingspage {
     font-family: 'Helvetica';
-    background-color: white;
-    margin: 30px auto 0;
-    display: block;
+}
+
+.profile-overview-settings-container {
+    margin: 20px;
 }
 
 .profile-overview-settings {
-    display: block;
-    margin: 20px auto;
-    width: 60%;
-    background-color: #ffffff;
-    font-family: 'Helvetica';
-    padding: 35px;
+    background-color: white;
+    padding: 20px;
+}
+
+.profile-overview-settings-picture-container {
+    padding-bottom: 20px;
 }
 
 .profile-overview-settings-picture {
-    margin: 15px auto;
     width: 100px;
+    margin: auto;
     display: block;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .profile-overview-name {
     text-align: center;
-    padding: 0;
-    margin: 20px 0 0;
-    font-size: 16px;
-    color: #6f6f6f;
-    text-decoration: none;
     display: block;
-    transition: 0.1s ease-in;
+    text-decoration: none;
+    color: #343434;
+    font-size: 16px;
 }
 
 .profile-overview-username {
     text-align: center;
-    padding: 0 0 20px 0;
-    margin: 4px 0 0;
-    font-size: 12px;
-    color: #b2b2b2;
-    text-decoration: none;
     display: block;
-    transition: 0.1s ease-in;
+    text-decoration: none;
+    color: #9a9a9a;
+    font-size: 12px;
 }
 
 .profile-overview-name:hover {
-    color: #30353a;
+    color: #61609f;
 }
 
 .profile-overview-username:hover {
-    color: #4c6370;
+    color: #57588c;
 }
+
+.profile-settings-container {
+    margin: 20px;
+}
+
+.profile-settings {
+    background-color: white;
+}
+
+i {
+    -webkit-transition: .1s ease all;
+    transition: .1s ease all;
+}
+
+#settings-form {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.edit-container {
+    font-size: 22px;
+    position: absolute;
+}
+
+.delete-container {
+    font-size: 22px;
+}
+
+.edit {
+    color: #3e60ce;
+}
+
+.delete {
+    color: #e14836;
+}
+
+
+
+
+
+.right-column {
+    width: 100%;
+    display: inline-block;
+}
+
+.left-column {
+    width: 100%;
+    display: inline-block;
+}
+
 
 
 /* Media Queries */
@@ -440,12 +484,26 @@ body {
         width: 470px;
     }
 
+
     .profile-overview-settings-picture {
-        margin: 25px auto;
         width: 150px;
     }
 
-    .profile-overview-settings-container {
-        width: 500px;
+    .right-column {
+        width: 50%;
+        float: right;
+        padding: 0;
     }
+
+    .left-column {
+        width: 50%;
+        float: left;
+        padding: 0;
+    }
+}
+
+
+.spin {
+    color: #48b342;
+    transform: rotate(360deg);
 }
