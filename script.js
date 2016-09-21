@@ -1,6 +1,5 @@
 $(document).ready(function() {
     var topOfOthDiv = $(".banner-container").outerHeight();
-    $('.delete').hide();
 
     $(".hamburger").click(function(e){
         e.preventDefault();
@@ -11,10 +10,7 @@ $(document).ready(function() {
 
     $(".edit").click(function(e){
         e.preventDefault();
-        $(this).toggleClass('spin');
-        $(this).toggleClass('fa-pencil');
-        $(this).toggleClass('fa-check')
-        $('.delete').toggle();
+        $(this).toggleClass('edit-cancel fa-pencil fa-times');
     });
 
     $(".square").click(function(e){

@@ -425,14 +425,12 @@ i {
 
 .delete-container {
     font-size: 22px;
+    position: absolute;
 }
 
 .edit {
     color: #3e60ce;
-}
-
-.delete {
-    color: #e14836;
+    margin-left: 10px;
 }
 
 
@@ -503,7 +501,7 @@ i {
 }
 
 
-.spin {
-    color: #48b342;
+.edit-cancel {
+    color: #d63034;
     transform: rotate(360deg);
 }
