@@ -414,7 +414,7 @@ i {
 }
 
 #settings-form {
-    padding: 30px 0;
+    padding: 30px;
 }
 
 .edit-container {
@@ -432,9 +432,66 @@ i {
     display: none;
 }
 
+#name-change {
+    display: block;
+    font-size: 18px;
+}
+
+#input-username {
+
+}
+
+#current-username {
+    display: inline;
+    color: #808080;
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+.save-button {
+    color: #fff;
+    background-color: #5ab74e;
+    border-color: #5ab74e;
+}
+
+.cancel-button {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+.btn {
+    display: inline-block;
+    padding: 3px 6px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-appearance: none;
+}
 
 .right-column {
     width: 100%;
@@ -445,6 +502,12 @@ i {
     width: 100%;
     display: inline-block;
 }
+
+
+
+
+
+
 
 
 
@@ -497,54 +560,4 @@ i {
         float: left;
         padding: 0;
     }
-}
-
-.save-button {
-    color: #fff;
-    background-color: #5ab74e;
-    border-color: #5ab74e;
-}
-
-.cancel-button {
-    color: #fff;
-    background-color: #d9534f;
-    border-color: #d9534f;
-}
-
-.btn {
-    display: inline-block;
-    padding: 3px 6px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-}
-
-#name-change {
-    margin: 1px auto;
-    display: inline;
-    font-size: 18px;
-}
-
-#input-username {
-
-}
-
-#current-username {
-    display: inline;
-    margin: 0 0 0 10px;
-    color: #808080;
 }
