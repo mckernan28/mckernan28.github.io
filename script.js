@@ -13,14 +13,16 @@ $(document).ready(function() {
 
     $(".edit").click(function(e){
         e.preventDefault();
+        $('.profile-settings').animate({height:158},300);
         $(this).fadeToggle(100);
-        $('#username-edit-input').children().fadeToggle(200);
+        $('#username-edit-input').children().fadeToggle(300);
     });
 
     $("#cancel-username-edit").click(function(e){
         e.preventDefault();
+        $('.profile-settings').animate({height:98},300);
         $(".edit").toggle();
-        $('#username-edit-input').children().fadeToggle(200);
+        $('#username-edit-input').children().fadeToggle(300);
     });
 
 
