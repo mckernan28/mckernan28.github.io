@@ -13,7 +13,7 @@ $(document).ready(function() {
 
     $(".edit").click(function(e){
         e.preventDefault();
-        $('.profile-settings').animate({height:158},300);
+        $('.profile-settings').animate({height:166},300);
         $(this).fadeToggle(100);
         $('#username-edit-input').children().fadeToggle(300);
     });

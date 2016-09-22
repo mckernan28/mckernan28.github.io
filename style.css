@@ -366,7 +366,7 @@ body {
 }
 
 .profile-overview-settings-picture-container {
-    padding-bottom: 20px;
+    padding: 10px 0 20px 0;
 }
 
 .profile-overview-settings-picture {
@@ -406,6 +406,7 @@ body {
 
 .profile-settings {
     background-color: white;
+    padding: 20px;
 }
 
 i {
@@ -413,8 +414,17 @@ i {
     transition: .1s ease all;
 }
 
+.setting-headers {
+    text-align: center;
+    margin: 0;
+    /*padding: 20px 0 0 0;*/
+    color: #858988;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+}
+
 #settings-form {
-    padding: 20px;
+    padding: 20px 0 0 0;
 }
 
 #edit-container {
@@ -429,16 +439,11 @@ i {
     padding-bottom: 4px;
 }
 
-.edit-cancel {
-    color: #d63034;
-    transform: rotate(180deg);
-    display: none;
-}
-
 #name-change {
     display: block;
     font-size: 18px;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 #input-username {
