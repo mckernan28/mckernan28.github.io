@@ -1,21 +1,19 @@
 $(document).ready(function() {
+
     var topOfOthDiv = $(".banner-container").outerHeight();
+    var $input = $('<input class="inputs" id="username-input"/>');
+    var $p = $('<p data-editable id="current-username">@mckernan28</p>');
     $('.save-button').hide();
     $('.cancel-button').hide();
-    $('#input-username').hide();
-
-    $(".hamburger").click(function(e){
-        e.preventDefault();
-        $(this).toggleClass('hamburger-active');
-        $('.hamburger-container').toggleClass('margin-adjust-menu');
-        $('.dropdown-menu-container').toggleClass('dropdown-menu-container-active');
-    });
+    $('.inputs').hide();
 
     $(".edit").click(function(e){
         e.preventDefault();
-        $('.profile-settings').animate({height:162},300);
-        $(this).fadeToggle(100);
+        $('.profile-settings').animate({height:145},300);
+        $(this).toggle();
         $('#username-edit-input').children().fadeToggle(300);
+
+        $('#current-username').replaceWith( $input );
     });
 
     $("#cancel-username-edit").click(function(e){
@@ -23,11 +21,17 @@ $(document).ready(function() {
         $('.profile-settings').animate({height:98},300);
         $(".edit").toggle();
         $('#username-edit-input').children().fadeToggle(300);
+
+        $('#username-input').replaceWith( $p );
     });
 
 
-
-
+    $(".hamburger").click(function(e){
+        e.preventDefault();
+        $(this).toggleClass('hamburger-active');
+        $('.hamburger-container').toggleClass('margin-adjust-menu');
+        $('.dropdown-menu-container').toggleClass('dropdown-menu-container-active');
+    });
 
     $(".square").click(function(e){
         e.preventDefault();
