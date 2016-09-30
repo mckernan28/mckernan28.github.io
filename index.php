@@ -26,7 +26,7 @@
         </div>
 
         <div class="menu-bar pic-menu">
-            <div class="contacts-container">
+            <div class="menu-bar-left-container">
                 <ul class="avatar-container">
                     <li class="avatar-list">
                         <a href="#" class="square-container">
@@ -50,7 +50,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="menu">
+            <div class="menu-bar-right-container">
                 <div class="hamburger-container">
                     <a class="hamburger" href="#">
                         <div class="bun top"></div>
