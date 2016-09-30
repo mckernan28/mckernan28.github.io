@@ -438,7 +438,7 @@ i {
     padding-bottom: 4px;
 }
 
-#name-change {
+.settings-titles {
     display: block;
     font-size: 18px;
     margin-bottom: 5px;
@@ -474,9 +474,17 @@ i {
     margin-bottom: 5px;
 }
 
+#username-input {
+    margin-top: 5px;
+}
 
+#profile-preview-settings-picture {
+    width: 100px;
+}
 
-
+#edit-profile-picture-container {
+    margin-bottom: 40px;
+}
 
 
 
