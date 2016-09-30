@@ -3,9 +3,6 @@ $(document).ready(function() {
     var topOfOthDiv = $(".banner-container").outerHeight();
     var $input = $('<input class="inputs" id="username-input"/>');
     var $p = $('<p data-editable id="current-username">@mckernan28</p>');
-    $('.save-button').hide();
-    $('.cancel-button').hide();
-    $('.inputs').hide();
 
     $(".edit").click(function(e){
         e.preventDefault();

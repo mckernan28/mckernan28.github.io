@@ -8,8 +8,6 @@ body {
     background-color: #e8e8e8;
 }
 
-
-
 .banner-container {
     display: block;
     height: 72px;
@@ -348,7 +346,7 @@ body {
     color: #b4b4b4;
 }
 
-
+/* Index.html Page */
 
 
 /* Settings.html Page */
@@ -588,4 +586,8 @@ i {
         float: left;
         padding: 0;
     }
+}
+
+.hidden {
+    display: none;
 }
