@@ -16,7 +16,7 @@
 <body>
     <div class="banner-container">
         <div class="banner-container-left">
-            <a class="logo-link" href="index.html">
+            <a class="logo-link" href="index.php">
                 <img src="logo-small.png" alt="" class="banner-logo">
             </a>
         </div>
@@ -55,10 +55,10 @@
                 <div class="dropdown-menu-settings">
                     <ul class="dropdown-menu-settings-link-container">
                         <li>
-                            <a class="dropdown-menu-settings-link" href="index.html">Home</a>
+                            <a class="dropdown-menu-settings-link" href="index.php">Home</a>
                         </li>
                         <li>
-                            <a class="dropdown-menu-settings-link" href="settings.html">Settings</a>
+                            <a class="dropdown-menu-settings-link" href="settings.php">Settings</a>
                         </li>
                         <li>
                             <a class="dropdown-menu-settings-link" href="#">Help</a>

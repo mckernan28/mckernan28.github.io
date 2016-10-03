@@ -76,10 +76,10 @@
                     <div class="dropdown-menu-settings">
                         <ul class="dropdown-menu-settings-link-container">
                             <li>
-                                <a class="dropdown-menu-settings-link" href="index.html">Home</a>
+                                <a class="dropdown-menu-settings-link" href="index.php">Home</a>
                             </li>
                             <li>
-                                <a class="dropdown-menu-settings-link" href="settings.html">Settings</a>
+                                <a class="dropdown-menu-settings-link" href="settings.php">Settings</a>
                             </li>
                             <li>
                                 <a class="dropdown-menu-settings-link" href="#">Help</a>
