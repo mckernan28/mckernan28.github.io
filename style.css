@@ -353,6 +353,7 @@ body {
 
 .settingspage {
     font-family: 'Helvetica';
+    padding-top: 15px;
 }
 
 .profile-overview-settings-container {
