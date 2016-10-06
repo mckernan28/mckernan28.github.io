@@ -412,13 +412,22 @@ body {
     border-radius: 6px;
 }
 
+.grow{
+    -moz-transition: height .5s;
+    -ms-transition: height .5s;
+    -o-transition: height .5s;
+    -webkit-transition: height .5s;
+    transition: height .5s;
+    overflow: hidden;
+    height: 0;
+}
+
 i {
     -webkit-transition: .1s ease all;
     transition: .1s ease all;
 }
 
 .setting-headers-container {
-    /*position: ;*/
     display: block;
     background: #426098;
     border-radius: 6px 6px 0 0;
@@ -430,21 +439,31 @@ i {
     margin: 0;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 #settings-form {
 
 }
 
-#edit-container {
+#edit-username-container {
     font-size: 22px;
     display: inline;
     cursor:pointer
 }
 
-.edit {
+#edit-description {
     color: #3e60ce;
+    margin-left: 5px;
+    padding-bottom: 4px;
+}
+
+#edit-description-container {
+    padding-bottom: 30px;
+}
+
+#edit-username {
+    color: #426098;
     margin-left: 5px;
     padding-bottom: 4px;
 }
@@ -481,6 +500,12 @@ i {
     color: #808080;
 }
 
+#current-description {
+    font-size: 16px;
+    color: #808080;
+    margin: 0 25px;
+}
+
 #edit-username-container {
     margin-bottom: 5px;
 }
@@ -493,20 +518,27 @@ i {
 #profile-preview-settings-picture {
     width: 75px;
     display: block;
-    margin: 8px auto;
-    border-left: 5px solid #d9534f;
-    border-right: 5px solid #d9534f;
+    margin: 8px auto 0;
+    border-left: 5px solid #4972b0;
+    border-right: 5px solid #4972b0;
     border-radius: 10px;
 }
 
 #edit-profile-picture-container {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
+#edit-profile-picture-button-container {
 
+}
 
-
-
+#edit-profile-picture-button {
+    padding: 0 6px;
+    color: #fff;
+    background-color: #426098;
+    border-color: #426098;
+    border-radius: 0 0 4px 4px;
+}
 
 
 .save-button {
@@ -519,6 +551,14 @@ i {
     color: #fff;
     background-color: #d9534f;
     border-color: #d9534f;
+}
+
+#edit-description-button {
+    margin-top: 10px;
+    padding: 0 12px;
+    color: #fff;
+    background-color: #426098;
+    border-color: #426098;
 }
 
 .btn {

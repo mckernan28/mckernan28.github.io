@@ -18,20 +18,18 @@ $(document).ready(function() {
     var $input = $('<input class="inputs" id="username-input"/>');
     var $p = $('<p data-editable id="current-username">@mckernan28</p>');
     var profileSettingsHeight = $(".profile-settings").outerHeight();
-    $(".edit").click(function(e){
+    $("#edit-username").click(function(e){
         e.preventDefault();
-        $('.profile-settings').animate({height: profileSettingsHeight + 10},200);
+        $('.profile-settings').animate({height: profileSettingsHeight + 30},300);
         $(this).toggle();
-        $('#username-edit-input').children().fadeToggle(300);
-
+        $('#username-edit-input').fadeToggle(300);
         $('#current-username').replaceWith( $input );
     });
     $("#cancel-username-edit").click(function(e){
         e.preventDefault();
-        $('.profile-settings').animate({height: profileSettingsHeight - 40},300);
-        $(".edit").toggle();
-        $('#username-edit-input').children().fadeToggle(300);
-
+        $('.profile-settings').animate({height: profileSettingsHeight},300);
+        $("#edit-username").toggle();
+        $('#username-edit-input').fadeToggle(300);
         $('#username-input').replaceWith( $p );
     });
 
