@@ -17,17 +17,18 @@ $(document).ready(function() {
     //Save and Cancel functions and animation for settings page
     var $input = $('<input class="inputs" id="username-input"/>');
     var $p = $('<p data-editable id="current-username">@mckernan28</p>');
-    var profileSettingsHeight = $(".profile-settings").outerHeight();
     $("#edit-username").click(function(e){
+        var profileSettingsHeight = $(".profile-settings").height();
         e.preventDefault();
-        $('.profile-settings').animate({height: profileSettingsHeight + 30},300);
+        $('.profile-settings').animate({height: profileSettingsHeight + 50},300);
         $(this).toggle();
         $('#username-edit-input').fadeToggle(300);
         $('#current-username').replaceWith( $input );
     });
     $("#cancel-username-edit").click(function(e){
+        var profileSettingsHeight = $(".profile-settings").height();
         e.preventDefault();
-        $('.profile-settings').animate({height: profileSettingsHeight},300);
+        $('.profile-settings').animate({height: profileSettingsHeight - 50},300);
         $("#edit-username").toggle();
         $('#username-edit-input').fadeToggle(300);
         $('#username-input').replaceWith( $p );
