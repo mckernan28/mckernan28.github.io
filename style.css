@@ -459,7 +459,7 @@ i {
 }
 
 #edit-description-container {
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 #edit-username {
@@ -471,7 +471,7 @@ i {
 .settings-titles {
     display: block;
     font-size: 18px;
-    margin-bottom: 5px;
+    margin-bottom: 11px;
     font-weight: bold;
 }
 
@@ -510,15 +510,19 @@ i {
     margin-bottom: 5px;
 }
 
+#username-edit-input {
+    margin-top: 50px;
+}
+
 #username-input {
     display: block;
-    margin: 10px auto;
+    margin: 10px auto 0;
 }
 
 #profile-preview-settings-picture {
     width: 75px;
     display: block;
-    margin: 8px auto 0;
+    margin: 0 auto;
     border-left: 5px solid #4972b0;
     border-right: 5px solid #4972b0;
     border-radius: 10px;
@@ -526,10 +530,6 @@ i {
 
 #edit-profile-picture-container {
     margin-bottom: 30px;
-}
-
-#edit-profile-picture-button-container {
-
 }
 
 #edit-profile-picture-button {
@@ -542,7 +542,8 @@ i {
 
 #description-input {
     width: 85%;
-    /*margin: 0 20px;*/
+    margin: 0;
+    resize: none;
 }
 
 
