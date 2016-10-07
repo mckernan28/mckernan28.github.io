@@ -14,10 +14,25 @@ $(document).ready(function() {
         }
     });
 
-    //Save and Cancel functions and animation for settings page
-    var $input = $('<input class="inputs" id="username-input"/>');
-    var $p = $('<p data-editable id="current-username">@mckernan28</p>');
+    //Save and Cancel functions and animation for Nickname on settings page
+    $("#edit-description-button").click(function(e){
+        var profileDescriptionHeight = $("#current-description").height();
+        var $input = $('<input class="inputs" id="description-input"/>');
+
+        $('#current-description').replaceWith( $input );
+        $('#description-input').height(profileDescriptionHeight)
+    });
+    $("#cancel-description-edit").click(function(e){
+        var $p = $('<p data-editable id="current-description">Hello my name is James Mckernan I am 16 years old and I am in Sec. 5 at Heritage Regional Highschool. I am enrolled in a computer programming course called iCan for my fifth year in 2016-2017</p>');
+        var profileSettingsHeight = $(".profile-settings").height();
+
+        e.preventDefault();
+        $('#username-input').replaceWith( $p );
+    });
+
+    //Save and Cancel functions and animation for Nickname on settings page
     $("#edit-username").click(function(e){
+        var $input = $('<input class="inputs" id="username-input"/>');
         var profileSettingsHeight = $(".profile-settings").height();
         e.preventDefault();
         $('.profile-settings').animate({height: profileSettingsHeight + 50},300);
@@ -26,6 +41,7 @@ $(document).ready(function() {
         $('#current-username').replaceWith( $input );
     });
     $("#cancel-username-edit").click(function(e){
+        var $p = $('<p data-editable id="current-username">@mckernan28</p>');
         var profileSettingsHeight = $(".profile-settings").height();
         e.preventDefault();
         $('.profile-settings').animate({height: profileSettingsHeight - 50},300);

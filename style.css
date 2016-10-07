@@ -540,6 +540,11 @@ i {
     border-radius: 0 0 4px 4px;
 }
 
+#description-input {
+    width: 85%;
+    /*margin: 0 20px;*/
+}
+
 
 .save-button {
     color: #fff;
