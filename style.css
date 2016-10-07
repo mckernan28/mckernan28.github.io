@@ -377,7 +377,14 @@ body {
     border-radius: 15px;
 }
 
-.profile-overview-name {
+#profile-overview-settings-description {
+    text-align: center;
+    margin: 0 35px;
+    padding: 20px 0 10px;
+    font-family: 'font-family: 'Open Sans', sans-serif;';
+}
+
+#profile-overview-settings-name {
     text-align: center;
     display: block;
     text-decoration: none;
@@ -385,7 +392,7 @@ body {
     font-size: 16px;
 }
 
-.profile-overview-username {
+#profile-overview-settings-username {
     text-align: center;
     display: block;
     text-decoration: none;
@@ -393,11 +400,11 @@ body {
     font-size: 12px;
 }
 
-.profile-overview-name:hover {
+#profile-overview-settings-name:hover {
     color: #4f659f;
 }
 
-.profile-overview-username:hover {
+#profile-overview-settings-username:hover {
     color: #4f659f;
 }
 
@@ -644,6 +651,10 @@ i {
 
     .profile-overview-settings-picture {
         width: 150px;
+    }
+
+    #profile-overview-settings-description {
+        margin: 0 20px;
     }
 
     .right-column {

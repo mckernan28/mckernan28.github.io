@@ -44,7 +44,7 @@ $(document).ready(function() {
     $("#cancel-settings-edit").click(function(e){
         var $pUsername = $('<p data-editable id="current-username">@mckernan28</p>');
         var profileSettingsHeight = $(".profile-settings").height();
-        var $pDescription = $('<p data-editable id="current-description">Hello my name is JameHello my name is James Mckernan I am 16 years old and I am in Sec. 5 at Heritage Regional Highschool. I am enrolled in a computer programming course called iCan for my fifth year in 2016-2017s Mckernan I am 16 years old and I am in Sec. 5 at Heritage Regional Highschool. I am enrolled in a computer programming course called iCan for my fifth year in 2016-2017</p>');
+        var $pDescription = $('<p data-editable id="current-description">Hello my name is James Mckernan I am 16 years old and I am in Sec. 5 at Heritage Regional Highschool. I am enrolled in a computer programming course called iCan for my fifth year in 2016-2017s Mckernan I am 16 years old and I am in Sec. 5 at Heritage Regional Highschool. I am enrolled in a computer programming course called iCan for my fifth year in 2016-2017</p>');
         // $('.profile-settings').animate({height: profileSettingsHeight - 90},300);
         $("#edit-description-button").show();
         $("#edit-username").show();

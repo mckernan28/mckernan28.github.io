@@ -85,8 +85,9 @@
                         <div class="profile-overview-settings-picture-container">
                             <img src="mckernan28-avatar.png" alt="profile-picture" class="profile-overview-settings-picture">
                         </div>
-                        <a class="profile-overview-name" href="">James Mckernan</a>
-                        <a class="profile-overview-username" href="">@mckernan28</a>
+                        <a id="profile-overview-settings-name" href="">James Mckernan</a>
+                        <a id="profile-overview-settings-username" href="">@mckernan28</a>
+                        <p id="profile-overview-settings-description">Hello my name is James Mckernan I am 16 years old and I am in Sec. 5 at Heritage Regional Highschool. I am enrolled in a computer programming course called iCan for my fifth year in 2016-2017s Mckernan I am 16 years old and I am in Sec. 5 at Heritage Regional Highschool. I am enrolled in a computer programming course called iCan for my fifth year in 2016-2017</p>
                     </div>
                 </div>
             </div>
@@ -106,7 +107,7 @@
 
                             <div id="edit-description-container">
                                 <p class="settings-titles">Description:</p>
-                                <p data-editable id="current-description">Hello my name is JameHello my name is James Mckernan I am 16 years old and I am in Sec. 5 at Heritage Regional Highschool. I am enrolled in a computer programming course called iCan for my fifth year in 2016-2017s Mckernan I am 16 years old and I am in Sec. 5 at Heritage Regional Highschool. I am enrolled in a computer programming course called iCan for my fifth year in 2016-2017</p>
+                                <p data-editable id="current-description">Hello my name is James Mckernan I am 16 years old and I am in Sec. 5 at Heritage Regional Highschool. I am enrolled in a computer programming course called iCan for my fifth year in 2016-2017s Mckernan I am 16 years old and I am in Sec. 5 at Heritage Regional Highschool. I am enrolled in a computer programming course called iCan for my fifth year in 2016-2017</p>
                                 <div id="edit-container">
                                     <button type="button" class="btn edit" id="edit-description-button">edit</button>
                                 </div>
