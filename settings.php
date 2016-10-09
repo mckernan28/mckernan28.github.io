@@ -106,7 +106,7 @@
                                 </div>
                                 <div class="btn" id="edit-profile-picture-button">
                                     <input id="upload" type="file"/>
-                                    <a href="" id="upload_link">edit <i class="fa fa-camera" aria-hidden="true"></i></a>
+                                    <a href="" id="upload_link">upload <i class="fa fa-camera" aria-hidden="true"></i></a>
                                 </div>
                             </div>
 
