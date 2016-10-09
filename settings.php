@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTf-8">
     <title>James Mckernan</title>
@@ -101,8 +101,13 @@
                         <form id="settings-form" action="" onsubmit="return false;">
                             <div id="edit-profile-picture-container">
                                 <p class="settings-titles">Profile Picture:</p>
-                                <img src="mckernan28-avatar.png" alt="Preview" id="profile-preview-settings-picture">
-                                <div class="btn" id="edit-profile-picture-button">edit <i class="fa fa-camera" aria-hidden="true"></i></div>
+                                <div id="profile-preview-settings-picture-container">
+                                    <img src="mckernan28-avatar.png" alt="Preview" id="profile-preview-settings-picture">
+                                </div>
+                                <div class="btn" id="edit-profile-picture-button">
+                                    <input id="upload" type="file"/>
+                                    <a href="" id="upload_link">edit <i class="fa fa-camera" aria-hidden="true"></i></a>
+                                </div>
                             </div>
 
                             <div id="edit-description-container">
