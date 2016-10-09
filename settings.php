@@ -11,7 +11,8 @@
           type="image/png"
           href="MinecraftHeads/mckernan28-avatar.png">
     <link rel="apple-touch-icon" href="MinecraftHeads/mckernan28-avatar.png"/>
-    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+<!--    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">-->
+    <script src="https://use.fontawesome.com/017764680d.js"></script>
 </head>
 <body>
     <div class="banner-container">
