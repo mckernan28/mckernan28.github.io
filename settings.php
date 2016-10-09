@@ -104,7 +104,7 @@
                                 <div id="profile-preview-settings-picture-container">
                                     <img src="mckernan28-avatar.png" alt="Preview" id="profile-preview-settings-picture">
                                 </div>
-                                <div class="btn" id="edit-profile-picture-button">
+                                <div class="btn edit" id="edit-profile-picture-button">
                                     <input id="upload" type="file"/>
                                     <a href="" id="upload_link">upload <i class="fa fa-camera" aria-hidden="true"></i></a>
                                 </div>

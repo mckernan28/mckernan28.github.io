@@ -22,6 +22,16 @@ $(document).ready(function() {
         $("#username-edit-input").fadeIn(200);
     })
 
+    //When upload Profile Picture is clicked
+    $("#upload_link").on('click', function(e){
+        e.preventDefault();
+        $("#upload:hidden").trigger('click');
+    });
+    $('#upload').change( function(e) {
+        var img = URL.createObjectURL(e.target.files[0]);
+        $('#profile-preview-settings-picture').attr('src', img);
+    });
+
     //When edit Description button is clicked
     $("#edit-description-button").click(function(e){
         var profileDescriptionHeight = $("#current-description").height();
@@ -73,19 +83,4 @@ $(document).ready(function() {
             $(this).addClass('square-active');
         }
     });
-
-
-    //Upload profile picture on settings page
-    $("#upload_link").on('click', function(e){
-        e.preventDefault();
-        $("#upload:hidden").trigger('click');
-    });
-    $('#upload').change( function(e) {
-        var img = URL.createObjectURL(e.target.files[0]);
-        $('#profile-preview-settings-picture').attr('src', img);
-    });
-
-
-
-
 });
