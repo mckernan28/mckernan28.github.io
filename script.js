@@ -16,21 +16,10 @@ $(document).ready(function() {
 
     //When any 'edit' button is clicked
     $('.edit').click(function (e) {
-        e.preventDefault();
         var profileSettingsHeight = $(".profile-settings").height();
         // $('.profile-settings').animate({height: profileSettingsHeight + 90},300);
         $("#username-edit-input").fadeIn(200);
     })
-
-    //When upload Profile Picture is clicked
-    $("#upload_link").on('click', function(e){
-        e.preventDefault();
-        $("#upload:hidden").trigger('click');
-    });
-    $('#upload').change( function(e) {
-        var img = URL.createObjectURL(e.target.files[0]);
-        $('#profile-preview-settings-picture').attr('src', img);
-    });
 
     //When edit Description button is clicked
     $("#edit-description-button").click(function(e){
@@ -82,5 +71,15 @@ $(document).ready(function() {
             $(".square").removeClass('square-active');
             $(this).addClass('square-active');
         }
+    });
+
+    //When upload Profile Picture is clicked
+    $("#upload_link").on('click', function(e){
+        e.preventDefault();
+        $("#upload:hidden").trigger('click');
+    });
+    $('#upload').change( function(e) {
+        var img = URL.createObjectURL(e.target.files[0]);
+        $('#profile-preview-settings-picture').attr('src', img);
     });
 });
