@@ -24,7 +24,7 @@ $(document).ready(function() {
     //When edit Description button is clicked
     $("#edit-description-button").click(function(e){
         var profileDescriptionHeight = $("#current-description").height();
-        var $inputDescription = $('<textarea class="inputs" id="description-input"/>');
+        var $inputDescription = $('<textarea class="inputs" id="description-input" name="description"/>');
         $('#current-description').replaceWith( $inputDescription );
         $('#description-input').outerHeight(profileDescriptionHeight)
         $("#edit-description-button").hide();
@@ -33,7 +33,7 @@ $(document).ready(function() {
 
     //When edit Username button is clicked
     $("#edit-username").click(function(e){
-        var $input = $('<input class="inputs" id="username-input"/>');
+        var $input = $('<input class="inputs" id="username-input" name="username"/>');
         $('#current-username').replaceWith( $input );
         $(this).hide();
         e.preventDefault();

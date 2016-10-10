@@ -16,8 +16,8 @@
             <div class="profile-overview-menu-settings">
                 <div class="img-container">
                     <img class="profile-picture-menu-settings" src="mckernan28-avatar.png" alt="">
-                    <a class="profile-name-menu-settings" href="#">James Mckernan</a>
-                    <a class="profile-username-menu-settings" href="#">@Mckernan28</a>
+                    <a class="profile-name-menu-settings" href="#"><?php include "database.php"; echo $full_name;?></a>
+                    <a class="profile-username-menu-settings" href="#">@<?php include "database.php"; echo $username;?></a>
                 </div>
             </div>
         </div>
