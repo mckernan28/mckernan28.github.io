@@ -1,5 +1,4 @@
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
         </div>
         <div class="footer-container">
             <div class="footer">
