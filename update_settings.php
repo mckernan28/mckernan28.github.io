@@ -1,5 +1,6 @@
 <?php
 include "database.php";
-$current_description = $_POST[name];
+include "settings.php";
+$current_description = $_POST[description];
 Header("Location: settings.php");
 ?>

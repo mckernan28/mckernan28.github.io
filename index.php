@@ -27,9 +27,8 @@
 
             <div id="main-page-content-container">
                 <div class="content-container">
-                    <div class="content-title-container">
-                        <p class="content-title">James Mckernan</p>
-                    </div>
+                    <p class="content-title">James Mckernan</p>
+                    <p class="content-subtitle">@mckernan28</p>
                     <div class="content-image-container">
                         <img class="content-image" src="mckernan28-avatar.png" alt="" id="mckernan28">
                     </div>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTf-8">
     <title>James Mckernan</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="stylesheets/style.css"/>
     <script src="scripts/jquery3.1.0.js"></script>
     <script src="scripts/script.js"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
