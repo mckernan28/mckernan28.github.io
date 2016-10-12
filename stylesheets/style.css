@@ -114,21 +114,18 @@ body {
 
 .hamburger-active {
   transform: rotate(-45deg); }
-
-.hamburger-active .meat {
-  margin: 2px 0; }
-
-.hamburger-active .top {
-  width: 5px;
-  height: 13px;
-  margin-left: 15px;
-  border-radius: 25px 25px 0 0; }
-
-.hamburger-active .bottom {
-  width: 5px;
-  height: 13px;
-  margin-left: 15px;
-  border-radius: 0 0 25px 25px; }
+  .hamburger-active .meat {
+    margin: 2px 0; }
+  .hamburger-active .top {
+    width: 5px;
+    height: 13px;
+    margin-left: 15px;
+    border-radius: 25px 25px 0 0; }
+  .hamburger-active .bottom {
+    width: 5px;
+    height: 13px;
+    margin-left: 15px;
+    border-radius: 0 0 25px 25px; }
 
 .margin-adjust-menu {
   margin-top: 12px; }
@@ -295,7 +292,8 @@ body {
 /* Settings.html Page */
 .settingspage {
   font-family: 'Helvetica';
-  padding-top: 15px; }
+  padding-top: 15px;
+  display: inline-block; }
 
 .profile-overview-settings-container {
   margin: 20px; }
