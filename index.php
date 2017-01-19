@@ -2,7 +2,7 @@
 
                 <ul class="avatar-container">
                     <li class="avatar-list">
-                        <a href="#" class="square-container">
+                        <a href="/otherwebsite/index.html" class="square-container">
                             <img class="square" title="mckernan28" src="mckernan28-avatar.png" alt="">
                         </a>
                     </li>
