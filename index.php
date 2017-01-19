@@ -33,7 +33,9 @@
                         <img class="content-image" src="mckernan28-avatar.png" alt="" id="mckernan28">
                     </div>
                     <div class="content-paragraph-container">
+                      <a href="/otherwebsite/index.html">
                         <p class="content-paragraph">Hello my name is James Mckernan I am 16 years old and I am in Sec. 5 at Heritage Regional Highschool. I am enrolled in a computer programming course called iCan for my fifth year in 2016-2017</p>
+                      </a>
                     </div>
                 </div>
             </div>
