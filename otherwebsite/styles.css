@@ -32,7 +32,7 @@ body {
 }
 
 .main-title {
-    word-spacing: 9999999px;
+    word-spacing: 999999px;
     text-align: center;
     font-size: 70px;
     font-weight: bold;
@@ -184,11 +184,11 @@ body {
     width: 100%;
     background-color: #fff;
     height: 50vh;
-    opacity: 0;
     transition: 0.25s;
     padding: 0;
     margin: 0 auto;
     font-size: 16vmin;
+    will-change: transform, font-size, width, height, left, border, opacity;
 }
 
 .white-bar-active {
@@ -200,18 +200,15 @@ body {
 @keyframes white-bar-animation {
     0% {
         font-size: 16vmin;
-        width: 100%;
+        width: 100vw;
         border-radius: 0;
         left: 0;
-        height: 50vh;
-        opacity: 1;
         animation-timing-function: cubic-bezier(0.23, 0.59, 0.6, 0.87);
     }
 
     40% {
         width: 50vh;
         left: calc(50% - 25vh);
-        height: 50vh;
         font-size: 8vmin;
         transform: scale(1, 1);
         animation-timing-function: cubic-bezier(0.77, 0.36, 0.56, 1);
@@ -225,13 +222,17 @@ body {
         transform: scale(1.2, 1.2);
     }
 
+    80% {
+        opacity: 1;
+    }
+
     100% {
         transform: scale(0, 0);
         border-radius: 1000px;
         width: 50vh;
         left: calc(50% - 25vh);
-        height: 50vh;
         font-size: 8vmin;
+        opacity: 0;
     }
 }
 
@@ -245,4 +246,76 @@ body {
     transform: translate(-50%, -50%);
     left: 50%;
     padding: 0;
+}
+
+@media (max-width: 650px) {
+    .main-title-container {
+        width: 200px;
+        margin: -75px 0 0 -100px;
+        position: absolute;
+        left: 50vw;
+        top: 50vh;
+    }
+
+    .main-title {
+        font-size: 35px;
+        margin: 40px 5px 5px 5px;
+    }
+
+    @keyframes main-title-animation {
+        0% {
+            opacity: 0;
+            margin-top: 40px;
+            transform: scale(0.75,0.75);
+        }
+
+        50% {
+            opacity: 1;
+            margin-top: 0;
+            transform: scale(1,1);
+        }
+
+        60% {
+            opacity: 1;
+            height: 125px;
+        }
+
+        100% {
+            transform: scale(1,1);
+            margin-top: 0;
+            opacity: 1;
+            height: 0;
+        }
+    }
+
+    .underline {
+        border-top: 1px solid black;
+        margin: -5px auto 0;
+    }
+
+    @keyframes underline-animation {
+        0% {
+            width: 0;
+            animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        50% {
+            width: 90%;
+            transform: translate(0, 0);
+            animation-timing-function: cubic-bezier(0.35, 1, 0.4, 1);
+        }
+
+        75% {
+            width: 90%;
+        }
+
+        95% {
+            opacity: 1;
+        }
+
+        100% {
+            width: 0;
+            opacity: 0;
+        }
+    }
 }
