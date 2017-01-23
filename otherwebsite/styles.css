@@ -192,7 +192,7 @@ body {
 }
 
 .white-bar-active {
-    animation-duration: 0.75s;
+    animation-duration: 3s;
     animation-name: white-bar-animation;
     animation-fill-mode: forwards;
 }
@@ -206,7 +206,7 @@ body {
         animation-timing-function: cubic-bezier(0.23, 0.59, 0.6, 0.87);
     }
 
-    40% {
+    10% {
         width: 50vh;
         left: calc(50% - 25vh);
         font-size: 8vmin;
@@ -214,25 +214,40 @@ body {
         animation-timing-function: cubic-bezier(0.77, 0.36, 0.56, 1);
     }
 
-    55% {
-        border-radius: 1000px;
+    13% {
+        border-radius: 400px;
     }
 
-    65% {
+    16% {
         transform: scale(1.2, 1.2);
     }
 
-    80% {
+    20% {
         opacity: 1;
     }
 
-    100% {
+    25% {
         transform: scale(0, 0);
-        border-radius: 1000px;
+        border-radius: 400px;
         width: 50vh;
         left: calc(50% - 25vh);
         font-size: 8vmin;
         opacity: 0;
+    }
+
+    30% {
+        font-size: 16vmin;
+        width: 100vw;
+        border-radius: 0;
+        left: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
 
