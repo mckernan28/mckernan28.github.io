@@ -1,3 +1,5 @@
+import "./styles.scss";
+
 // Execute when document is ready
 $(document).ready(() => {
     // Animate the page to the top after a refresh
@@ -37,6 +39,9 @@ $(document).ready(() => {
             // Called when 'whiteBar' is clicked
             $(whiteBar).click(() => {
                 whiteBar.addClass('white-bar-active');
+                setTimeout(() => {
+                    whiteBar.removeClass('white-bar-active')
+                }, 3000);
             });
         }, 4000)
     });
